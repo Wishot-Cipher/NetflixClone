@@ -1,0 +1,590 @@
+.container{
+    background-color: #222222;
+    width: 100vw;
+}
+.background{
+ background-image: url(../img/netflixBack\ .jpg);
+ height: 110vh;
+ width: 100%;
+ background-size: cover;
+ margin-top: -50px;
+ padding-bottom: 30px;
+ /* background-repeat: no-repeat; */
+ 
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 30px;
+    z-index: 10;
+    background-color: rgba(7, 3, 3, 0.6);
+}
+.logo{
+    padding: 70px 65px;
+    height: 36px;
+    width: 134px;
+    fill: #E50914;
+    line-height: normal;
+}
+.firstText{
+    padding-top: 1.5em;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1em;
+    text-align: center;
+}
+
+.secondText{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-top: -20px;
+
+}
+.thirdText{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+.input input:first-of-type{
+    height: 55px;
+    width: 35vw;
+}
+.input input:first-of-type::placeholder, .email input::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+.input{
+   display: flex;
+   justify-content: center;
+    /* width: 10v; */
+}
+.button{
+    width:17vw;
+    height: 60px;
+    margin-left: 1px;
+    background-color: #BC040E;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    background-color: #F40612;
+}
+.secondSlide{
+    background-color: #000000;
+    /* height: 80vh; */
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.heading{
+   text-align : center;
+   width: 40vw;
+   padding-left: 120px;
+   padding-top: 100px;
+}
+.heading p{
+    font-size: 1.5em;
+    text-align: left;
+    
+}
+.heading h1{
+    font-size: 3em;
+    text-align: left;
+    font-weight: 500;
+}
+.tv img{
+    width: 40vw;
+}
+.thirdSlide{
+    background-color: #000000;
+    /* height: 80vh; */
+    /* color: whitesmoke; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    padding-bottom: 45px;
+}
+
+.phone img{
+    width: 37vw;
+    padding-left: 70px;
+    padding-top: 35px;
+    
+}
+.phonetext{
+    color: white;
+    font-size: 1.5em;
+    padding-top: 100px;
+}
+.phonetext p{
+    font-size: 1em; 
+    font-weight: 500;
+    margin-top: -10px;
+}
+.fourthSlide{
+    background-color: #000000;
+    /* height: 80vh; */
+    /* color: whitesmoke; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    padding-bottom: 45px;
+}
+.txtslide{
+    background-color: #000000;
+    /* height: 80vh; */
+    color: whitesmoke;
+    
+    padding-left: 100px;
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-top: 10px;
+    padding-bottom: 45px;
+}
+.txtslide p{
+    margin-top: -10px; 
+    /* font-size: 1em;  */
+    font-size: 1.6em;
+    font-weight: 500;
+}
+.txtslide h1{
+    font-size: 3em;
+    text-align: left;
+    font-weight: 500;
+}
+.kids img{
+    width: 37vw;
+    padding-left: 120px;
+    padding-top: 35px;
+}
+.foruthText h1{
+    color: white;
+    font-size: 3em;
+    padding-top: 100px;
+}
+.foruthText p{
+    font-size: 1.6em; 
+    font-weight: 500;
+    margin-top: -10px;
+    color: white;
+}
+.lastSlide{
+    background-color: #000000;
+    /* height: 80vh; */
+    color: whitesmoke;
+    font-size: 18px;
+    width: 100vw;
+    /* padding-left: 100px; */
+    /* padding-top: 35px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.lastSlide div h1{
+   padding-left: 20px;
+   font-size: 2.5em;
+   margin: 30px 0px;
+}
+.lastSlide .one,.second, .third, .fourth, .fifth, .sixth{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    /* border: 1px solid red; */
+    background-color: #303030;
+    /* height: 40px; */
+    height: 70px;
+    margin-bottom: 10px;
+}
+.lastSlide .second,.lastSlide .one, .third, .fourth, .fifth, .sixth{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    /* border: 1px solid red; */
+    background-color: #303030;
+    /* height: 40px; */
+}
+.lastSlide .second p,.lastSlide .one p,.lastSlide .third p, .fourth p, .fifth p, .sixth p{
+    /* text-align: center; */
+    margin-top: 10px;
+    font-size: 1.6rem;
+    padding-left: 40px;
+}
+.lastSlide .second h1,.lastSlide .one h1,.lastSlide .third h1, .lastSlide .fourth h1, .lastSlide .fifth h1,.lastSlide .sixth h1{
+    padding-right: 5px;
+    margin-top: 5px;
+    font-weight: 400;
+
+}
+.seventhtext{
+    width: 50vw;
+     padding-left: 80px;
+     font-size: 1.3rem;
+}
+.email{
+    width: 50vw;
+    padding-left:80px ;
+    display: flex;
+    margin-bottom: 50px;
+}
+.email input{
+    height: 55px;
+    width: 35vw;
+}
+
+.footer{
+    background-color: #000000;
+    /* height: 80vh; */
+    color: whitesmoke;
+    padding-left: 150px;
+    font-size: 15px;
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.7fr; 
+    margin-top: 10px;
+    padding-bottom: 45px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width : 1024px){
+
+    .logo{
+        padding: 65px 40px;
+        height: 30px;
+        width: 100px;
+        fill: #E50914;
+        line-height: normal;
+    }
+    .firstText{
+        font-size: 2.3rem;
+        font-weight: 700;
+        color: white;
+        line-height: 1em;
+        text-align: center;
+    }
+    .input{
+        display: block;
+        
+         /* width: 10v; */
+     }
+     .input input{
+        display: block;
+        margin: auto;
+        padding-right: 100px;
+     }
+    .button{
+        display: block;
+        margin: 10px auto;
+        width:30vw;
+        height: 55px;
+        font-size: 10px;
+        /* margin-left: 1px; */
+        background-color: #BC040E;
+        color: white;
+        border: none;
+        border-radius: 5px;
+     
+     }
+
+}
+
+@media screen and (max-width : 1000px){
+    .background{
+        background-image: url(../img/netflixBack\ .jpg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        margin-top: -50px;
+        /* padding-bottom: 30px; */
+        /* background-repeat: no-repeat; */
+        
+       }
+       .firstText{
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+        line-height: 1em;
+        margin-top: -60px;
+        text-align: center;
+    }
+    .secondText{
+        text-align: center;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding-top: -20px;
+    
+    }
+    .thirdText{
+        text-align: center;
+        color: white;
+        font-weight: 400;
+        padding: 10px;
+    }
+    .input input{
+        display: block;
+        margin: auto;
+        padding-right: 150px;
+     }
+     .secondSlide{
+        background-color: #000000;
+        /* height: 80vh; */
+        color: whitesmoke;
+        display: block;
+        
+        /* margin-top: 10px; */
+        padding-bottom: 30px;
+    }
+    .heading{
+       margin: auto;
+       width: 70vw;
+       padding-left: 0px;
+       padding-top: 30px;
+    }
+    .heading p{
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: -30px;
+        
+    }
+    .heading h1{
+        font-size: 2em;
+        text-align: center;
+        font-weight: 500;
+    }
+    .tv img{
+        width: 70vw;
+        padding-top: 10px;
+        display: block;
+        margin: auto;
+    }
+    .thirdSlide{
+        background-color: #000000;
+        /* height: 80vh; */
+        /* color: whitesmoke; */
+        display: block;
+        /* grid-template-columns: 1fr 1fr; */
+        margin-top: 10px;
+        padding-bottom: 30px;
+    }
+    
+    .phone img{
+        width: 70vw;
+        padding-left: 0px;
+        display: block;
+        margin: auto;
+        padding-top: 10px;
+        
+    }
+    .phonetext{
+        color: white;
+        font-size: 1em;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .phonetext p{
+        font-size: 1.1em; 
+        font-weight: 500;
+        padding-top: 10px;
+        margin-top: -10px;
+        text-align: center;
+    }
+    .fourthSlide{
+        background-color: #000000;
+        /* height: 80vh; */
+        /* color: whitesmoke; */
+        display: block;
+        /* grid-template-columns: 1fr 1fr; */
+        margin-top: 10px;
+        padding-bottom: 45px;
+    }
+    .txtslide{
+        background-color: #000000;
+        /* height: 80vh; */
+        color: whitesmoke;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 35px;
+        padding: 10px;
+        display: block; 
+        margin-top: 10px;
+        padding-bottom: 25px;
+    }
+    .txtslide p{
+        margin-top: -10px; 
+        /* font-size: 1em;  */
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+    .txtslide h1{
+        font-size: 2em;
+        text-align: center;
+        font-weight: 500;
+    }
+    .kids img{
+        width: 70vw;
+        padding-left: 0px;
+        display: block;
+        margin: auto;
+        padding-top: 25px;
+    }
+    .foruthText h1{
+        color: white;
+        font-size: 2em;
+        padding: 10px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .foruthText p{
+        font-size: 1.1em; 
+        padding: 10px;
+        font-weight: 500;
+        margin-top: -10px;
+        text-align: center;
+        color: white;
+    }
+    .lastSlide{
+        background-color: #000000;
+        /* height: 80vh; */
+        color: whitesmoke;
+        font-size: 18px;
+        width: 100vw;
+        padding-left: 0px;
+        /* padding-top: 35px; */
+        display: block;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+        padding-bottom: 30px;
+    }
+    .lastSlide div h1{
+       padding-left: 0px;
+       font-size: 1.5em;
+       text-align: center;
+       margin: 30px 0px;
+    }
+    .lastSlide div{
+        margin: 10px auto;
+        width: 90vw;
+
+    }
+    .lastSlide .second,.lastSlide .one, .third, .fourth, .fifth, .sixth{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        /* border: 1px solid red; */
+        background-color: #303030;
+        /* height: 40px; */
+    }
+    .lastSlide .second p,.lastSlide .one p,.lastSlide .third p, .fourth p, .fifth p, .sixth p{
+        /* text-align: center; */
+        margin-top: 10px;
+        font-size: 1.2rem;
+        padding-left: 20px;
+    }
+    .lastSlide .second h1,.lastSlide .one h1,.lastSlide .third h1, .lastSlide .fourth h1, .lastSlide .fifth h1,.lastSlide .sixth h1{
+        padding-right: 5px;
+        margin-top: 5px;
+        font-weight: 400;
+    
+    }
+    .seventhtext{
+        width: 70vw;
+         padding-left: 0px;
+         font-size: 1.1rem;
+         text-align: center;
+    }
+    .email{
+        width: 70vw;
+        padding-left:0px ;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .email input{
+        display: block;
+        margin: auto;
+        padding-right: 120px;
+    }
+    
+    .footer{
+        background-color: #000000;
+        /* height: 80vh; */
+        color: whitesmoke;
+        padding-left: 15px;
+        font-size: 13px;
+        padding-top: 35px;
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr; 
+        margin-top: 10px;
+        padding-bottom: 45px;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width : 700px){
+
+    .logo{
+        padding: 65px 10px;
+        height: 25px;
+        width: 100px;
+        fill: #E50914;
+        line-height: normal;
+    }
+
+.background{
+    background-image: url(../img/netflixBack\ .jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    margin-top: -50px;
+    /* padding-bottom: 30px; */
+    /* background-repeat: no-repeat; */
+    
+   }
+   .firstText{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1em;
+    margin-top: -30px;
+    text-align: center;
+    padding: 10px;
+}
+.secondText{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: -20px;
+    padding: 3px;
+
+}
+.thirdText{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+}
+
+}
+
