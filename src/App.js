@@ -96,29 +96,29 @@ function App() {
       </div>
       <div className="footer">
       <div className="Istfooter">
-      <p><a href="#">Questions? Contact us.</a></p><br /> 
-      <p><a href="#">FAQ</a></p>
-      <p><a href="#">Investor Relations</a></p>
-      <p> <a href="#">Privacy</a></p>
-      <p><a href="#">Speed Test</a> </p> <br />
-      <p><a href="#">Netflix Nigeria</a></p>
+      <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Questions? Contact us.</a></p><br /> 
+      <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">FAQ</a></p>
+      <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Investor Relations</a></p>
+      <p> <a href="https://app.netlify.com/sites/wishot-netlify-clone">Privacy</a></p>
+      <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Speed Test</a> </p> <br />
+      <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Netflix Nigeria</a></p>
         </div>
         <div className="secondfooter">
-              <p><br /> <br /> <br /> <a href="#">Help Center</a></p>
-              <p><a href="#">Jobs</a></p>
-              <p><a href="#">Cookie Preferences</a></p>
-              <p><a href="#">Legal Notices</a></p>
+              <p><br /> <br /> <br /> <a href="https://app.netlify.com/sites/wishot-netlify-clone">Help Center</a></p>
+              <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Jobs</a></p>
+              <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Cookie Preferences</a></p>
+              <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Legal Notices</a></p>
         </div>
             <div className="thirdfooter">
-            <p> <br /> <br /> <br /> <a href="#">Account</a></p>
-            <p><a href="#">Ways to Watch</a></p>
-            <p><a href="#">Corporate Information</a></p>
-            <p><a href="#">Only on Netflix</a></p>
+            <p> <br /> <br /> <br /> <a href="https://app.netlify.com/sites/wishot-netlify-clone">Account</a></p>
+            <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Ways to Watch</a></p>
+            <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Corporate Information</a></p>
+            <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Only on Netflix</a></p>
         </div>
        <div className="fourthfooter">
-          <p> <br /> <br /> <br /> <a href="#">Media Center</a></p>
-          <p><a href="#">Terms of Use</a></p>
-          <p><a href="#">Contact Us</a></p>
+          <p> <br /> <br /> <br /> <a href="https://app.netlify.com/sites/wishot-netlify-clone">Media Center</a></p>
+          <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Terms of Use</a></p>
+          <p><a href="https://app.netlify.com/sites/wishot-netlify-clone">Contact Us</a></p>
        </div>
 
        </div>
